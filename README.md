@@ -1,3 +1,3 @@
 # firsttry
 
-Test d'ajout et de `git.pull`
+Test d'ajout et de `.gitpull`
