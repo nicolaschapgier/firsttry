@@ -51,13 +51,13 @@
   font-size: 22px;
   text-align: right;
   text-transform: uppercase;
-}
+  }
 
 .blocleft a {
   color: white;
-}
+  }
 
-/* avec ou sans point tel est la question ! */
+
 .welcome1 button {
   padding: 20px 50px;
   margin: 10px 4px;
@@ -68,7 +68,9 @@
   border-color: white;
   background-color: rgb(94, 66, 166);
   color: white;
-}
+  transition: 4s;
+  cursor: pointer;
+  }
 
 .welcome1 button:hover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -76,42 +78,44 @@
   color: white;
   transform: scaleX(1.2);
   transform-origin: left;
-  transition: 1s; /*Ne se voit pas au chargement de la page mais la transition après le "hover" n'est pas agréable*/
-}
+  }
 
-/* przycisk aussi ca fonctionne lol */
-.bouton {
-  display: inline-block;
-  padding: 20px;
-  width: 200px;
-  margin: auto;
-  text-decoration: none;
-  border: 1px solid;
-  border-width: 1px;
-  border-radius: 30px;
-  border-color: white;
-  background-color: rgb(94, 66, 166);
-  color: white;
-  transition: ;
-  text-align: center;
-  transition: 2s; /*se voit au chargement de la page*/
-}
+      .fast{
+        transition: 1s;
+        background: linear-gradient(to right, red 50%, #312450 50%);
+        background-size: 200% 100%;
+        background-position:right bottom;
+      }
+      
+      .fast:hover{
+        background-position:left ;
+        transition: 1s;
+      }
 
-.bouton:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  text-decoration: none;
-  color: white;
-  transform: scaleX(1.2);
-  transform-origin: left;
-  cursor: pointer;
-}
+      #slowback{
+        transition: 3s;
+        background: linear-gradient(to right, rgba(255,255,255,0.2) 50%, #312450 50%);
+        background-size : 200% 100%;
+        background-position: right bottom;
+      }
+
+      #slowback:hover{
+        background-position: left;
+        transition: 7s;
+      }
+
+      #changementcouleurtxt:hover{
+        color: black;
+      }
+
+
 
 .content {
   font-family: "Source Sans Pro";
   background-color: rgb(94, 66, 166);
   padding-left: 400px;
   flex: 3;
-}
+  }
 
 .welcome1 {
   margin-top: 100px;
@@ -123,15 +127,15 @@
   padding-bottom: 100px;
   font-size: 35px;
   color: rgba(255, 255, 255, 1);
-}
+  }
 
 .welcome1 h1 {
   text-transform: uppercase;
-}
+  }
 
 .welcome1 p {
   opacity: 0.3;
-}
+  }
 
 .whoweare {
   background-color: green;
@@ -142,7 +146,7 @@
   margin-left: 100px;
   margin-right: 300px;
   padding-bottom: 100px;
-}
+  }
 
 .whatwedo {
   background-color: white;
@@ -153,7 +157,7 @@
   margin-left: 100px;
   margin-right: 300px;
   padding-bottom: 100px;
-}
+  }
 
 /*test
 	.arrow {
