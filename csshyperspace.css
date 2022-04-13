@@ -1,183 +1,159 @@
-.onenglobe{
-	display: flex;
-	position: sticky;
+.onenglobe {
+  display: flex;
+  position: sticky;
 }
-.blocleft{
-	font-family: 'Source Sans Pro';
-	font-weight: 300;
-	letter-spacing: 4px;
-	position: fixed;
-	background: #312450;
-	color: white;
-	padding-top: 200px;
-	padding-bottom: 100%;
-	flex: 1;
-	}
-
-.navbar{
-	justify-content: space-between;
-	display: flex;
-	}
-
-.txtleft{
-	background-color: whitesmoke;
-	opacity: 0.5;
-	border: 3px solid;
-	border-radius: 15px;
-	margin: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	word-spacing: 10px;
-	}
-
-
-.txtright{
-	background-color: whitesmoke;
-	opacity: 0.5;
-	border: 3px solid;
-	padding: 5px;
-	border-radius: 15px;
-	margin: 10px;
-	word-spacing: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	}
-
-.blocleft ul{
-	margin-left: 60px;
-	margin-right: 0px;
-	padding-right: 90px;
-	padding-top: 80px;
-	text-decoration: underline;
-	font-size: 22px;
-	text-align: right;
-	text-transform: uppercase;
-	}
-
-.blocleft a{
-	color: white;
-	}
-
-
-
-	.welcome1 button{
-		padding: 20px 50px;
-		margin: 10px 4px;
-		text-decoration: none;
-		border : 1px solid;
-		border-width: 1px;
-		border-radius: 30px;
-		border-color: white;
-		background-color: rgb(94, 66, 166);
-		color: white;
-	}
-	
-
-	.welcome1 button:hover{
-		background-color :rgba(255, 255, 255,0.2);
-		text-decoration: none;
-		color: white;
-		transform: scaleX(1.2);
-		transform-origin: left;
-		transition: 1s; /*Ne se voit pas au chargement de la page mais la transition après le "hover" n'est pas agréable*/
-		}
-
-
-
-
-
-		.bouton{
-			display: inline-block;
-			padding: 20px;
-			width: 200px;
-			margin:auto;
-			text-decoration: none;
-			border : 1px solid;
-			border-width: 1px;
-			border-radius: 30px;
-			border-color: white;
-			background-color: rgb(94, 66, 166);
-			color: white;
-			transition:  ;
-			text-align: center;
-			transition: 2s; /*se voit au chargement de la page*/
-
-		}
-		
-	
-		.bouton:hover{
-			background-color :rgba(255, 255, 255,0.2);
-			text-decoration: none;
-			color: white;
-			transform: scaleX(1.2);
-			transform-origin: left;
-			cursor: pointer;
-			}
-
-
-
-
-
-
-
-
-
-
-.content{
-	font-family: 'Source Sans Pro';
-	background-color: rgb(94, 66, 166);
-	padding-left: 400px;
-	flex: 3;
-	}
-
-
-.welcome1{
-	margin-top: 100px;
-	text-align: left;
-	padding-top: 80px;
-	margin-top: 200px;
-	margin-left: 100px;
-	margin-right: 300px;
-	padding-bottom: 100px;
-	font-size: 35px;
-	color: rgba(255,255,255,1);
-	}
-
-.welcome1 h1{
-	text-transform: uppercase;
+.blocleft {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  letter-spacing: 4px;
+  position: fixed;
+  background: #312450;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 100%;
+  flex: 1;
 }
 
-.welcome1 p{
-	opacity: 0.3;
+.navbar {
+  justify-content: space-between;
+  display: flex;
 }
 
-.whoweare{
-	background-color: green;
-	margin-top: 100px;
-	text-align: left;
-	padding-top: 80px;
-	margin-top: 200px;
-	margin-left: 100px;
-	margin-right: 300px;
-	padding-bottom: 100px;
-	}
+.txtleft {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  border: 3px solid;
+  border-radius: 15px;
+  margin: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  word-spacing: 10px;
+}
 
+.txtright {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  border: 3px solid;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 10px;
+  word-spacing: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
+.blocleft ul {
+  margin-left: 60px;
+  margin-right: 0px;
+  padding-right: 90px;
+  padding-top: 80px;
+  text-decoration: underline;
+  font-size: 22px;
+  text-align: right;
+  text-transform: uppercase;
+}
 
+.blocleft a {
+  color: white;
+}
 
+/* avec ou sans point tel est la question ! */
+.welcome1 button {
+  padding: 20px 50px;
+  margin: 10px 4px;
+  text-decoration: none;
+  border: 1px solid;
+  border-width: 1px;
+  border-radius: 30px;
+  border-color: white;
+  background-color: rgb(94, 66, 166);
+  color: white;
+}
 
+.welcome1 button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  color: white;
+  transform: scaleX(1.2);
+  transform-origin: left;
+  transition: 1s; /*Ne se voit pas au chargement de la page mais la transition après le "hover" n'est pas agréable*/
+}
 
+/* przycisk aussi ca fonctionne lol */
+.bouton {
+  display: inline-block;
+  padding: 20px;
+  width: 200px;
+  margin: auto;
+  text-decoration: none;
+  border: 1px solid;
+  border-width: 1px;
+  border-radius: 30px;
+  border-color: white;
+  background-color: rgb(94, 66, 166);
+  color: white;
+  transition: ;
+  text-align: center;
+  transition: 2s; /*se voit au chargement de la page*/
+}
 
-.whatwedo{
-	background-color: white;
-	margin-top: 100px;
-	text-align: left;
-	padding-top: 80px;
-	margin-top: 200px;
-	margin-left: 100px;
-	margin-right: 300px;
-	padding-bottom: 100px;
-	}
+.bouton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  color: white;
+  transform: scaleX(1.2);
+  transform-origin: left;
+  cursor: pointer;
+}
+
+.content {
+  font-family: "Source Sans Pro";
+  background-color: rgb(94, 66, 166);
+  padding-left: 400px;
+  flex: 3;
+}
+
+.welcome1 {
+  margin-top: 100px;
+  text-align: left;
+  padding-top: 80px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 300px;
+  padding-bottom: 100px;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.welcome1 h1 {
+  text-transform: uppercase;
+}
+
+.welcome1 p {
+  opacity: 0.3;
+}
+
+.whoweare {
+  background-color: green;
+  margin-top: 100px;
+  text-align: left;
+  padding-top: 80px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 300px;
+  padding-bottom: 100px;
+}
+
+.whatwedo {
+  background-color: white;
+  margin-top: 100px;
+  text-align: left;
+  padding-top: 80px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 300px;
+  padding-bottom: 100px;
+}
 
 /*test
 	.arrow {
@@ -189,5 +165,3 @@
 		transform: rotate(-45deg);
 	  }
 */
-
-
