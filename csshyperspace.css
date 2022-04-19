@@ -11,12 +11,12 @@
   color: white;
   padding-top: 200px;
   padding-bottom: 100%;
-  flex: 1;
-}
+  }
 
 .navbar {
   justify-content: space-between;
   display: flex;
+  margin: auto;
 }
 
 .txtleft {
@@ -170,3 +170,9 @@
 		transform: rotate(-45deg);
 	  }
 */
+
+
+.titre1 { 
+  background-color: red;
+  display: flex;
+}
