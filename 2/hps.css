@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+}
+
+li {
+    display: inline;
+}
+
+ol {
+    border: 1px solid;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+ol li{
+    background-color: red;
+}
+
+ul {
+    display: inline;
+    text-align: right;
+    flex: 1;
+}
+
+ul li {
+    border: 1px solid;
+}
